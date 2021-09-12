@@ -10,6 +10,14 @@ namespace MarsRover.Data
     {
         public int XCoordinate { get; set; }
         public int YCoordinate { get; set; }
-        public string Direction { get; set; }
+        public Direction Direction { get; set; }
+    }
+
+    public enum Direction
+    {
+        N = 1,
+        W = 2,
+        E = 3,
+        S = 4
     }
 }

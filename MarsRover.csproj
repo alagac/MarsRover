@@ -45,8 +45,10 @@
   <ItemGroup>
     <Compile Include="Data\RoverMovement.cs" />
     <Compile Include="Data\RoverPositionDirection.cs" />
+    <Compile Include="Data\UserInputValidation.cs" />
     <Compile Include="Inputs\MarsRoverUserInput.cs" />
     <Compile Include="Interfaces\IRoverMovement.cs" />
+    <Compile Include="Interfaces\IUserInputValidation.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
